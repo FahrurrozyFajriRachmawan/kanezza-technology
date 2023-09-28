@@ -110,6 +110,10 @@ body {
   box-shadow: none;
 }
 
+hr {
+  color: #aaa;
+}
+
 nav .navbar-brand {
   font-size: 22px;
   font-weight: 600;
@@ -131,7 +135,12 @@ nav .navbar-brand img {
 }
 @media (max-width: 575.98px) {
   nav .navbar-brand {
-    font-size: 16px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 395px) {
+  nav .navbar-brand span {
+    display: none !important;
   }
 }
 
@@ -142,9 +151,6 @@ header {
   align-items: center;
   height: 450px;
   overflow: hidden;
-}
-header hr {
-  color: #777;
 }
 header .header-desc {
   padding: 50px 10px;
@@ -192,6 +198,11 @@ header .header-desc p {
 @media (max-width: 575.98px) {
   header .header-desc h1 {
     font-size: 28px;
+  }
+}
+@media (max-width: 395px) {
+  header {
+    height: 450px;
   }
 }
 
@@ -451,28 +462,28 @@ header .header-desc p {
   }
 }
 
-.section-how-we-work {
+.section-how-do-we-work {
   margin: 0 auto;
   padding: 100px 0;
 }
-.section-how-we-work h1 {
+.section-how-do-we-work h1 {
   padding-bottom: 50px;
   font-size: 3vw;
   font-weight: bold;
   text-transform: uppercase;
   color: #545b77;
 }
-.section-how-we-work .card {
+.section-how-do-we-work .card {
   margin: 0 10px;
   border: none;
   border-radius: 0;
   background-color: #fff;
   box-shadow: 5px 5px 5px #eee;
 }
-.section-how-we-work .card .card-body {
+.section-how-do-we-work .card .card-body {
   position: relative;
 }
-.section-how-we-work .card .card-body img {
+.section-how-do-we-work .card .card-body img {
   position: relative;
   display: flex;
   justify-content: center;
@@ -484,7 +495,7 @@ header .header-desc p {
   -o-object-fit: cover;
      object-fit: cover;
 }
-.section-how-we-work .card .card-body h1 {
+.section-how-do-we-work .card .card-body h1 {
   margin: 0;
   padding: 30px 0 0 0;
   font-size: 1.6vw;
@@ -493,28 +504,28 @@ header .header-desc p {
   text-transform: uppercase;
   color: #545b77;
 }
-.section-how-we-work .card .card-body p {
+.section-how-do-we-work .card .card-body p {
   padding: 20px 40px;
   text-align: justify;
   font-weight: 400;
   color: #555;
 }
 @media (max-width: 991.98px) {
-  .section-how-we-work .card {
+  .section-how-do-we-work .card {
     margin: 10px 20px;
   }
-  .section-how-we-work .card .card-body h1 {
+  .section-how-do-we-work .card .card-body h1 {
     font-size: 20px;
   }
-  .section-how-we-work .card .card-body p {
+  .section-how-do-we-work .card .card-body p {
     font-size: 16px;
   }
 }
 @media (max-width: 767.98px) {
-  .section-how-we-work {
+  .section-how-do-we-work {
     padding: 50px 0;
   }
-  .section-how-we-work h1 {
+  .section-how-do-we-work h1 {
     padding-bottom: 30px;
     font-size: 28px;
   }
@@ -642,6 +653,18 @@ header .header-desc p {
     font-size: 28px;
   }
 }
+@media (max-width: 575.98px) {
+  .section-our-client-say .our-client-say .slick-next:before {
+    font-size: 32px;
+  }
+  .section-our-client-say .our-client-say .slick-prev:before {
+    font-size: 32px;
+  }
+  .section-our-client-say .our-client-say .card {
+    margin: 0;
+    padding: 10px;
+  }
+}
 
 .section-contact-us {
   display: flex;
@@ -685,7 +708,13 @@ footer {
   text-align: center;
   height: auto;
   background-color: #151922;
-  color: #f9f9f9;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+footer a:hover {
+  opacity: 0.6;
 }
 footer .copyright {
   color: #777;

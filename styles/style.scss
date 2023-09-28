@@ -131,6 +131,10 @@ body {
   box-shadow: none;
 }
 
+hr {
+  color: #aaa;
+}
+
 // NAVBAR
 nav {
   .navbar-brand {
@@ -155,7 +159,14 @@ nav {
 
     // X-SMALL DEVICES
     @media (max-width: 575.98px) {
-      font-size: 16px;
+      font-size: 14px;
+    }
+
+    // XX-SMALL DEVICES
+    @media (max-width: 395px) {
+      span {
+        display: none !important;
+      }
     }
   }
 }
@@ -168,10 +179,6 @@ header {
   align-items: center;
   height: 450px;
   overflow: hidden;
-
-  hr {
-    color: #777;
-  }
 
   .header-desc {
     padding: 50px 10px;
@@ -233,6 +240,11 @@ header {
         font-size: 28px;
       }
     }
+  }
+
+  // XX-SMALL DEVICES
+  @media (max-width: 395px) {
+    height: 450px;
   }
 }
 
@@ -568,8 +580,8 @@ header {
   }
 }
 
-// SECTION HOW WE WORK
-.section-how-we-work {
+// SECTION HOW DO WE WORK
+.section-how-do-we-work {
   margin: 0 auto;
   padding: 100px 0;
 
@@ -805,6 +817,24 @@ header {
       font-size: 28px;
     }
   }
+
+  // X-SMALL DEVICES
+  @media (max-width: 575.98px) {
+    .our-client-say {
+      .slick-next:before {
+        font-size: 32px;
+      }
+
+      .slick-prev:before {
+        font-size: 32px;
+      }
+
+      .card {
+        margin: 0;
+        padding: 10px;
+      }
+    }
+  }
 }
 
 // SECTION CONTACT US
@@ -860,7 +890,16 @@ footer {
   text-align: center;
   height: auto;
   background-color: #151922;
-  color: #f9f9f9;
+
+  a {
+    text-decoration: none;
+    color: #fff;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
   .copyright {
     color: #777;
   }
