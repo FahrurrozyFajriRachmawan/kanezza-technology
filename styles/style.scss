@@ -483,9 +483,12 @@ header {
       img {
         position: relative;
         right: -100px;
-        width: 38vw;
+        // width: 38vw;
+        // height: 420px;
+        width: 100%;
         height: 420px;
         object-fit: cover;
+        // object-position: left top;
         box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
       }
     }
@@ -599,6 +602,8 @@ header {
     border-radius: 0;
     background-color: #fff;
     box-shadow: 5px 5px 5px #eee;
+    height: 300px;
+    overflow: hidden;
 
     .card-body {
       position: relative;
@@ -685,9 +690,8 @@ header {
         overflow: hidden;
         .img-fluid {
           width: 100%;
-          height: 450px;
+          height: 400px;
           object-fit: cover;
-          // border-radius: 10px;
           border: 1px solid #eee;
           box-shadow: 5px 5px 5px #eee;
 
@@ -845,12 +849,16 @@ header {
   background-color: #151922;
 
   .title-contact-us {
-    padding: 80px 20px;
+    // padding: 80px 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
 
     h1 {
+      padding-bottom: 30px;
       font-size: 3.8vw;
       font-weight: 600;
       text-transform: uppercase;
@@ -861,12 +869,8 @@ header {
   // SMALL DEVICES
   @media (max-width: 767.98px) {
     .title-contact-us {
-      flex-direction: column;
-      text-align: center;
-
       h1 {
-        margin-bottom: 50px;
-        font-size: 32px;
+        font-size: 30px;
       }
     }
   }
@@ -875,7 +879,9 @@ header {
   @media (max-width: 575.98px) {
     .title-contact-us {
       h1 {
-        font-size: 24px;
+        br {
+          display: none;
+        }
       }
     }
   }
