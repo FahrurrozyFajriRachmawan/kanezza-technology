@@ -18,6 +18,10 @@ body {
   padding: 0 30px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .button-primary {
   background: #f1935c;
   color: white;
@@ -493,14 +497,12 @@ header {
 
   // MEDIUM DEVICES
   @media (max-width: 991.98px) {
-    #v-pills-tab {
-      width: 40%;
-    }
-
     #v-pills-tabContent {
       .tab-pane {
         img {
           left: 90px;
+          width: 300px;
+          height: 300px;
         }
       }
     }
@@ -559,22 +561,22 @@ header {
     // SMALL DEVICES
     @media (max-width: 767.98px) {
       img {
-        width: 16px;
+        width: 20px;
       }
 
       h1 {
-        font-size: 16px;
+        font-size: 20px;
       }
     }
 
     // X-SMALL DEVICES
     @media (max-width: 575.98px) {
       img {
-        width: 14px;
+        width: 18px;
       }
 
       h1 {
-        font-size: 14px;
+        font-size: 18px;
       }
     }
   }

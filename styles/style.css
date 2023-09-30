@@ -14,6 +14,10 @@ body {
   padding: 0 30px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .button-primary {
   background: #f1935c;
   color: white;
@@ -395,11 +399,10 @@ header .header-desc p {
   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 991.98px) {
-  .section-our-services #v-pills-tab {
-    width: 40%;
-  }
   .section-our-services #v-pills-tabContent .tab-pane img {
     left: 90px;
+    width: 300px;
+    height: 300px;
   }
 }
 @media (max-width: 767.98px) {
@@ -447,18 +450,18 @@ header .header-desc p {
 }
 @media (max-width: 767.98px) {
   .section-sliding-running-text .sliding-running-text img {
-    width: 16px;
+    width: 20px;
   }
   .section-sliding-running-text .sliding-running-text h1 {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 @media (max-width: 575.98px) {
   .section-sliding-running-text .sliding-running-text img {
-    width: 14px;
+    width: 18px;
   }
   .section-sliding-running-text .sliding-running-text h1 {
-    font-size: 14px;
+    font-size: 18px;
   }
 }
 
