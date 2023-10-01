@@ -392,17 +392,23 @@ header .header-desc p {
 .section-our-services #v-pills-tabContent .tab-pane img {
   position: relative;
   left: 140px;
-  width: 400px;
-  height: 400px;
+  width: 480px;
+  height: 480px;
   -o-object-fit: cover;
      object-fit: cover;
-  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 1199.98px) {
+  .section-our-services #v-pills-tabContent .tab-pane img {
+    left: 90px;
+    width: 420px;
+    height: 420px;
+  }
 }
 @media (max-width: 991.98px) {
   .section-our-services #v-pills-tabContent .tab-pane img {
     left: 90px;
-    width: 300px;
-    height: 300px;
+    width: 320px;
+    height: 320px;
   }
 }
 @media (max-width: 767.98px) {
@@ -494,8 +500,8 @@ header .header-desc p {
   justify-content: center;
   align-items: center;
   margin: auto;
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   border-radius: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -535,6 +541,11 @@ header .header-desc p {
     font-size: 28px;
   }
 }
+@media (max-width: 575.98px) {
+  .section-how-do-we-work .card {
+    height: auto;
+  }
+}
 
 .section-portfolio-highlight {
   margin: 0 auto;
@@ -547,20 +558,25 @@ header .header-desc p {
   text-transform: uppercase;
   color: #545b77;
 }
+.section-portfolio-highlight .photo-portfolio .photos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 .section-portfolio-highlight .photo-portfolio .photos .item {
-  margin: 0;
+  margin: 15px 0;
   padding: 0;
   height: 100%;
-  border: 5px solid transparent;
   overflow: hidden;
+  box-shadow: 5px 5px 5px #eee;
 }
 .section-portfolio-highlight .photo-portfolio .photos .item .img-fluid {
   width: 100%;
   height: 400px;
   -o-object-fit: cover;
      object-fit: cover;
-  border: 1px solid #eee;
-  box-shadow: 5px 5px 5px #eee;
+  -o-object-position: left top;
+     object-position: left top;
 }
 .section-portfolio-highlight .photo-portfolio .photos .item .img-fluid:hover {
   transition: 0.5s ease-in-out;
@@ -584,6 +600,9 @@ header .header-desc p {
     padding-bottom: 30px;
     font-size: 28px;
   }
+  .section-portfolio-highlight .photo-portfolio .photos .item {
+    margin: 10px 0;
+  }
 }
 
 .section-our-client-say {
@@ -604,12 +623,14 @@ header .header-desc p {
 }
 .section-our-client-say .our-client-say .slick-next:before {
   font-size: 50px;
-  color: #ddd;
+  color: #eee;
+  border-radius: 100%;
 }
 .section-our-client-say .our-client-say .slick-prev:before {
   margin-left: -30px;
   font-size: 50px;
-  color: #ddd;
+  color: #eee;
+  border-radius: 100%;
 }
 .section-our-client-say .our-client-say .card {
   margin: 0 30px;
