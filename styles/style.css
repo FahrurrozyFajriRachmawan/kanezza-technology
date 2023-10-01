@@ -327,6 +327,9 @@ header .header-desc p {
   .section-about-us .stats-detail p strong {
     font-size: 18px;
   }
+  .section-about-us .icon-lets-talk {
+    display: none;
+  }
   .section-about-us .icon-lets-talk img {
     width: 90px;
     height: 90px;
