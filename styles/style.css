@@ -697,7 +697,7 @@ header .header-desc p {
   }
   .section-our-client-say .our-client-say .card {
     margin: 0;
-    padding: 10px;
+    padding: 30px 10px;
     box-shadow: none;
   }
 }
