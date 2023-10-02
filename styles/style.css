@@ -171,7 +171,7 @@ header .header-desc p {
   margin: 5px 0 0 0;
   width: 95%;
   font-size: 1.6vw;
-  font-weight: 400;
+  font-weight: 300;
   text-align: justify;
   color: #555;
 }
@@ -233,7 +233,7 @@ header .header-desc p {
   width: 90%;
   text-align: center;
   font-size: 1.6vw;
-  font-weight: 400;
+  font-weight: 300;
   color: #555;
 }
 .section-about-us .about-us .about-us-desc img {
@@ -246,7 +246,7 @@ header .header-desc p {
 }
 .section-about-us .stats-detail p {
   margin: 0;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.6vw;
   color: #555;
 }
@@ -491,7 +491,7 @@ header .header-desc p {
   border-radius: 0;
   background-color: #fff;
   box-shadow: 5px 5px 5px #eee;
-  height: 350px;
+  height: 400px;
   overflow: hidden;
 }
 .section-how-do-we-work .card .card-body {
@@ -512,7 +512,7 @@ header .header-desc p {
 .section-how-do-we-work .card .card-body h1 {
   margin: 0;
   padding: 30px 0 0 0;
-  font-size: 1.6vw;
+  font-size: 1.8vw;
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
@@ -520,8 +520,9 @@ header .header-desc p {
 }
 .section-how-do-we-work .card .card-body p {
   padding: 20px 40px;
-  text-align: justify;
-  font-weight: 400;
+  text-align: left;
+  font-size: 1.6vw;
+  font-weight: 300;
   color: #555;
 }
 @media (max-width: 991.98px) {
@@ -549,9 +550,6 @@ header .header-desc p {
   }
   .section-how-do-we-work .card .card-body {
     padding: 0;
-  }
-  .section-how-do-we-work .card .card-body p {
-    text-align: left;
   }
 }
 
@@ -660,12 +658,12 @@ header .header-desc p {
 }
 .section-our-client-say .our-client-say .card h3 {
   font-size: 1.2vw;
-  font-weight: 400;
+  font-weight: 300;
   color: #555;
 }
 .section-our-client-say .our-client-say .card p {
   font-size: 1.6vw;
-  font-weight: 400;
+  font-weight: 300;
   color: #555;
 }
 @media (max-width: 991.98px) {

@@ -200,7 +200,7 @@ header {
       margin: 5px 0 0 0;
       width: 95%;
       font-size: 1.6vw;
-      font-weight: 400;
+      font-weight: 300;
       text-align: justify;
       color: #555;
     }
@@ -277,7 +277,7 @@ header {
         width: 90%;
         text-align: center;
         font-size: 1.6vw;
-        font-weight: 400;
+        font-weight: 300;
         color: #555;
       }
 
@@ -294,7 +294,7 @@ header {
 
     p {
       margin: 0;
-      font-weight: 400;
+      font-weight: 300;
       font-size: 1.6vw;
       color: #555;
 
@@ -616,7 +616,7 @@ header {
     border-radius: 0;
     background-color: #fff;
     box-shadow: 5px 5px 5px #eee;
-    height: 350px;
+    height: 400px;
     overflow: hidden;
 
     .card-body {
@@ -637,7 +637,7 @@ header {
       h1 {
         margin: 0;
         padding: 30px 0 0 0;
-        font-size: 1.6vw;
+        font-size: 1.8vw;
         font-weight: 500;
         text-align: center;
         text-transform: uppercase;
@@ -646,8 +646,9 @@ header {
 
       p {
         padding: 20px 40px;
-        text-align: justify;
-        font-weight: 400;
+        text-align: left;
+        font-size: 1.6vw;
+        font-weight: 300;
         color: #555;
       }
     }
@@ -685,9 +686,6 @@ header {
 
       .card-body {
         padding: 0;
-        p {
-          text-align: left;
-        }
       }
     }
   }
@@ -822,13 +820,13 @@ header {
 
       h3 {
         font-size: 1.2vw;
-        font-weight: 400;
+        font-weight: 300;
         color: #555;
       }
 
       p {
         font-size: 1.6vw;
-        font-weight: 400;
+        font-weight: 300;
         color: #555;
       }
     }
